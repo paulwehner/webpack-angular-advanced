@@ -1,0 +1,33 @@
+.artist-container {
+	height: 150px;
+	width: 150px;
+	border: 1px solid grey;
+	display: none;
+	border-radius: 100px;
+	position: relative;
+	cursor: pointer;
+	margin: 30px;
+	margin-bottom: 60px;
+}
+
+.artist-title {
+	font-family: arial;
+	font-size: 14px;
+	color: grey;
+	position: absolute;
+	bottom: -40px;
+	height: 30px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.artist-container:hover {
+	border-color: black;
+}
+
+.artist-container:hover .artist-title {
+	color: black;
+};

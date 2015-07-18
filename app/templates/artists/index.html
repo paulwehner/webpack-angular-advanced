@@ -1,0 +1,7 @@
+<div id="artists-search-container">
+	<input class="artists-search-input" type="text" placeholder="Search..." ng-model="searchValue">
+</div>
+
+<div id="artists-list-container">
+  	<Artist ng-repeat="artist in artists | filter:mbidFilter" title="{{artist.name}}" img="{{artist.image[3]['#text']}}" mbid="{{artist.mbid}}"></Artist>
+</div>
