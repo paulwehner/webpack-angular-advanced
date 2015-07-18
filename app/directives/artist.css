@@ -5,7 +5,6 @@
 	display: none;
 	border-radius: 100px;
 	position: relative;
-	cursor: pointer;
 	margin: 30px;
 	margin-bottom: 60px;
 }
@@ -22,10 +21,6 @@
 	text-align: center;
 	cursor: pointer;
 	overflow: hidden;
-}
-
-.artist-container:hover {
-	border-color: black;
 }
 
 .artist-container:hover .artist-title {

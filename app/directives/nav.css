@@ -2,18 +2,19 @@
 	font-family: arial;
 	font-size: 18px;
 	list-style-type: none;
+	padding-bottom: 20px;
 }
 
 .nav li {
 	float: left;
-	border: 1px solid blue;
-	padding: 20px;
 }
 
 .nav a {
 	color: grey;
 	text-decoration: none;
-
+	background-color: #f7f7f7;
+	padding: 10px;
+	margin: 10px;
 }
 
 .nav a:hover {
@@ -23,4 +24,7 @@
 
 .nav .active a {
 	color: black;
+	text-decoration: none !important;
+	cursor: default;
+	background-color: lightgrey;
 }
